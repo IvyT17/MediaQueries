@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px) /* This is for the mobile screen that cannot surpass 600 px which is the max width */
+{
+    body
+    {
+        background-color: rgb(251, 251, 159);
+    }
+}
+
+@media screen and (min-width: 600px) /* This is for the bigger screen that must be greater than 600 px which is the min width */
+{
+    body
+    {
+        background-color: lightblue;
+    }
+}
